@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/slots", (req, res) => {
-  res.json(data);
+  res.json(ParkSimulator);
 });
 
 // IMPORTANT for Render
